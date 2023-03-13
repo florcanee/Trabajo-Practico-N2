@@ -21,7 +21,8 @@ do{
     break;
     }else if(confirmacion === false && contador != 0){
         document.write(`Las cadenas de texto que ingreso: ${cadenaDeTexto}`);
-    }break;
+        break;
+    }
     textoUsuario = prompt("Escriba una frase");
     
     cadenaDeTexto = cadenaDeTexto + " - " + textoUsuario
